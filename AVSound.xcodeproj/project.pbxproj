@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7971ADA179905CB005907D3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7971AD9179905CB005907D3 /* AudioToolbox.framework */; };
+		E7971AE017990CA3005907D3 /* kid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7971ADF17990CA3005907D3 /* kid.mp3 */; };
 		E7E751681798BE4D006EF530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E751671798BE4D006EF530 /* UIKit.framework */; };
 		E7E7516A1798BE4D006EF530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E751691798BE4D006EF530 /* Foundation.framework */; };
 		E7E7516C1798BE4D006EF530 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E7516B1798BE4D006EF530 /* CoreGraphics.framework */; };
@@ -24,6 +26,7 @@
 		E7E751911798BE4D006EF530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E751691798BE4D006EF530 /* Foundation.framework */; };
 		E7E751991798BE4D006EF530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7E751971798BE4D006EF530 /* InfoPlist.strings */; };
 		E7E7519C1798BE4D006EF530 /* AVSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7519B1798BE4D006EF530 /* AVSoundTests.m */; };
+		E7E751A61798BE5C006EF530 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E751A51798BE5C006EF530 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7971AD9179905CB005907D3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E7971ADF17990CA3005907D3 /* kid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kid.mp3; sourceTree = "<group>"; };
 		E7E751641798BE4D006EF530 /* AVSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E751671798BE4D006EF530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7E751691798BE4D006EF530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +65,7 @@
 		E7E751981798BE4D006EF530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7E7519A1798BE4D006EF530 /* AVSoundTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVSoundTests.h; sourceTree = "<group>"; };
 		E7E7519B1798BE4D006EF530 /* AVSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVSoundTests.m; sourceTree = "<group>"; };
+		E7E751A51798BE5C006EF530 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7971ADA179905CB005907D3 /* AudioToolbox.framework in Frameworks */,
+				E7E751A61798BE5C006EF530 /* AVFoundation.framework in Frameworks */,
 				E7E751681798BE4D006EF530 /* UIKit.framework in Frameworks */,
 				E7E7516A1798BE4D006EF530 /* Foundation.framework in Frameworks */,
 				E7E7516C1798BE4D006EF530 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +97,8 @@
 		E7E7515B1798BE4D006EF530 = {
 			isa = PBXGroup;
 			children = (
+				E7971AD9179905CB005907D3 /* AudioToolbox.framework */,
+				E7E751A51798BE5C006EF530 /* AVFoundation.framework */,
 				E7E7516D1798BE4D006EF530 /* AVSound */,
 				E7E751941798BE4D006EF530 /* AVSoundTests */,
 				E7E751661798BE4D006EF530 /* Frameworks */,
@@ -133,6 +143,7 @@
 		E7E7516E1798BE4D006EF530 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E7971ADF17990CA3005907D3 /* kid.mp3 */,
 				E7E7516F1798BE4D006EF530 /* AVSound-Info.plist */,
 				E7E751701798BE4D006EF530 /* InfoPlist.strings */,
 				E7E751731798BE4D006EF530 /* main.m */,
@@ -241,6 +252,7 @@
 				E7E7517E1798BE4D006EF530 /* Default-568h@2x.png in Resources */,
 				E7E751811798BE4D006EF530 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E7E751841798BE4D006EF530 /* MainStoryboard_iPad.storyboard in Resources */,
+				E7971AE017990CA3005907D3 /* kid.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +480,7 @@
 				E7E751A11798BE4D006EF530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E751A21798BE4D006EF530 /* Build configuration list for PBXNativeTarget "AVSoundTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +489,7 @@
 				E7E751A41798BE4D006EF530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
