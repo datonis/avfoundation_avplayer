@@ -1,7 +1,7 @@
 avfoundation_avplayer
 =====================
 
-Xcode audio player for ios example in AVFoundation.
+Xcode audio player example for ios example in AVFoundation.
 
 
 -Amninder S Narota
